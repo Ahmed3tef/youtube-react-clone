@@ -1,0 +1,15 @@
+// base & vars //
+
+@import './vars';
+@import './base';
+
+// components //
+
+@import './components/header';
+@import './components/categoriesBar';
+@import './components/sideBar';
+@import './components/videoCard';
+
+// pages //
+
+@import './pages/homeScreen';
