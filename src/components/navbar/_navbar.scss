@@ -1,0 +1,24 @@
+.navbar {
+  height: 5.6rem;
+  padding: 0 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-navbar-bg);
+
+  &__menu:active {
+    background-color: var(--color-sidebar-item-hover);
+  }
+}
+.logo {
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    width: 2rem;
+  }
+  &__text {
+    font-size: 2rem;
+  }
+}

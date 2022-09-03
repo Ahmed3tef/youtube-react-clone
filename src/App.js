@@ -1,18 +1,17 @@
 import React, { Fragment } from 'react';
-import { Container } from 'react-bootstrap';
-import { Header, Sidebar } from './components';
+import { Navbar, Sidebar } from './components';
 import { Home } from './pages';
 
 import './_app.scss';
 
 const App = () => (
   <Fragment>
-    <Header />
+    <Navbar />
     <div className='app__container'>
       <Sidebar />
-      <Container fluid className='app__main'>
+      <div fluid className='app__main'>
         <Home />
-      </Container>
+      </div>
     </div>
   </Fragment>
 );

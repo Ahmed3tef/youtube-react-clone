@@ -1,4 +1,6 @@
-export { default as Header } from './Header';
-export { default as Sidebar } from './Sidebar';
-export { default as VideoCard } from './VideoCard';
-export { default as CategoriesBar } from './CategoriesBar';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Sidebar } from './sidebar/Sidebar';
+export { default as VideoCard } from './videoCard/VideoCard';
+export { default as CategoriesBar } from './filterBar/FilterBar';
+export { default as Search } from './search/Search.js';
+export { default as Icon } from './icon/Icon';

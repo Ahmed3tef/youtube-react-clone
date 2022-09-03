@@ -1,10 +1,10 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import { CategoriesBar, VideoCard } from '../components';
+// import { CategoriesBar, VideoCard } from '../components';
 
 const Home = () => (
   <>
-    <Container>
+    dasdasd
+    {/* <Container>
       <CategoriesBar />
       <Row>
         {[...new Array(20)].map(() => (
@@ -13,7 +13,7 @@ const Home = () => (
           </Col>
         ))}
       </Row>
-    </Container>
+    </Container> */}
   </>
 );
 
