@@ -1,5 +1,4 @@
 import { MdMenu } from 'react-icons/md';
-import Icon from '../icon/Icon';
 
 import './_navbar.scss';
 import LogoImg from '../../img/logo.png';
