@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 // import { CategoriesBar, VideoCard } from '../components';
 
 const Home = () => (
   <>
-    dasdasd
     {/* <Container>
       <CategoriesBar />
       <Row>

@@ -11,12 +11,15 @@
   }
 }
 .logo {
+  display: flex;
+  align-items: center;
+  padding: 18px 14px 18px 16px;
   &__container {
     display: flex;
     align-items: center;
   }
   &__img {
-    width: 2rem;
+    width: 3.2rem;
   }
   &__text {
     font-size: 2rem;
