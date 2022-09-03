@@ -21,29 +21,31 @@ import { RiThumbUpLine } from 'react-icons/ri';
 import { SiYoutubegaming } from 'react-icons/si';
 import { ImFeed } from 'react-icons/im';
 
-const sidebarCategories = [
+// TODO: add id
+
+export const sidebarCategories = [
   [
-    { name: 'Home', icon: <MdHomeFilled /> },
-    { name: 'Explore', icon: <MdOutlineExplore /> },
-    { name: 'Shorts', icon: <AiOutlineFire /> },
-    { name: 'Subscriptions', icon: <BsCollectionPlay /> },
+    { name: 'Home', id: 1, icon: <MdHomeFilled /> },
+    { name: 'Explore', id: 2, icon: <MdOutlineExplore /> },
+    { name: 'Shorts', id: 3, icon: <AiOutlineFire /> },
+    { name: 'Subscriptions', id: 4, icon: <BsCollectionPlay /> },
   ],
   [
-    { name: 'Library', icon: <MdOutlineVideoLibrary /> },
-    { name: 'History', icon: <GrHistory /> },
-    { name: 'Your videos', icon: <AiOutlinePlaySquare /> },
-    { name: 'Watch later', icon: <AiOutlineClockCircle /> },
-    { name: 'Liked videos', icon: <RiThumbUpLine /> },
+    { name: 'Library', id: 5, icon: <MdOutlineVideoLibrary /> },
+    { name: 'History', id: 6, icon: <GrHistory /> },
+    { name: 'Your videos', id: 7, icon: <AiOutlinePlaySquare /> },
+    { name: 'Watch later', id: 8, icon: <AiOutlineClockCircle /> },
+    { name: 'Liked videos', id: 9, icon: <RiThumbUpLine /> },
   ],
   [
-    { name: 'Gaming', icon: <SiYoutubegaming /> },
-    { name: 'Live', icon: <ImFeed /> },
-    { name: 'Sports', icon: <BsTrophy /> },
+    { name: 'Gaming', id: 10, icon: <SiYoutubegaming /> },
+    { name: 'Live', id: 11, icon: <ImFeed /> },
+    { name: 'Sports', id: 12, icon: <BsTrophy /> },
   ],
   [
-    { name: 'Settings', icon: <AiOutlineSetting /> },
-    { name: 'Report history', icon: <MdOutlinedFlag /> },
-    { name: 'Help', icon: <AiOutlineQuestionCircle /> },
-    { name: 'Send feedback', icon: <BsExclamationSquare /> },
+    { name: 'Settings', id: 13, icon: <AiOutlineSetting /> },
+    { name: 'Report history', id: 14, icon: <MdOutlinedFlag /> },
+    { name: 'Help', id: 15, icon: <AiOutlineQuestionCircle /> },
+    { name: 'Send feedback', id: 16, icon: <BsExclamationSquare /> },
   ],
 ];
