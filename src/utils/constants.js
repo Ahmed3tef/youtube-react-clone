@@ -21,6 +21,8 @@ import { RiThumbUpLine } from 'react-icons/ri';
 import { SiYoutubegaming } from 'react-icons/si';
 import { ImFeed } from 'react-icons/im';
 
+// TODO: add id 
+
 const sidebarCategories = [
   [
     { name: 'Home', icon: <MdHomeFilled /> },
