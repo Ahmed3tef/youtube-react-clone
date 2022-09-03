@@ -1,6 +1,11 @@
-import React from 'react';
+import './_sidebar.scss';
 const Sidebar = () => {
-  return <div>Sidebar</div>;
+  return (
+    <div className='sidebar'>
+      some link <br />
+      some link
+    </div>
+  );
 };
 
 export default Sidebar;
