@@ -23,46 +23,16 @@ const Sidebar = ({ showSidebar }) => {
       )}
       {showSidebar && (
         <>
-          <div className='sidebar__section'>
-            {sidebarCategories[0].map(category => (
-              <div className='sidebar__link' key={category.id}>
-                <div className='sidebar__icon'>{category.icon}</div>
-                {showSidebar && (
+          {sidebarCategories.map(categoryArr => (
+            <div className='sidebar__section'>
+              {categoryArr.map(category => (
+                <div className='sidebar__link' key={category.id}>
+                  <div className='sidebar__icon'>{category.icon}</div>
                   <div className='sidebar__caption'>{category.name}</div>
-                )}
-              </div>
-            ))}
-          </div>
-          <div className='sidebar__section'>
-            {sidebarCategories[1].map(category => (
-              <div className='sidebar__link' key={category.id}>
-                <div className='sidebar__icon'>{category.icon}</div>
-                {showSidebar && (
-                  <div className='sidebar__caption'>{category.name}</div>
-                )}
-              </div>
-            ))}
-          </div>
-          <div className='sidebar__section'>
-            {sidebarCategories[2].map(category => (
-              <div className='sidebar__link' key={category.id}>
-                <div className='sidebar__icon'>{category.icon}</div>
-                {showSidebar && (
-                  <div className='sidebar__caption'>{category.name}</div>
-                )}
-              </div>
-            ))}
-          </div>
-          <div className='sidebar__section'>
-            {sidebarCategories[3].map(category => (
-              <div className='sidebar__link' key={category.id}>
-                <div className='sidebar__icon'>{category.icon}</div>
-                {showSidebar && (
-                  <div className='sidebar__caption'>{category.name}</div>
-                )}
-              </div>
-            ))}
-          </div>
+                </div>
+              ))}
+            </div>
+          ))}
         </>
       )}
     </div>
