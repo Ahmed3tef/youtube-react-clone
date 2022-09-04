@@ -37,7 +37,7 @@
 
   &-small {
     width: auto;
-    padding: 1.4rem 0;
+    padding: 1rem 0;
     overflow-y: hidden;
     .sidebar__icon {
       margin-right: 0;
@@ -45,16 +45,16 @@
     }
     .sidebar__section {
       padding: 0;
-      width: 100%;
+      width: 90%;
       border-bottom: none;
     }
     .sidebar__link {
-      padding: 1.8rem;
+      padding: 1.5rem 0.6rem;
       flex-direction: column;
     }
     .sidebar__caption {
       font-size: 1rem;
-      margin-top: 0.3rem;
+      margin-top: 0.5rem;
     }
   }
 }
