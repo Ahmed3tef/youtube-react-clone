@@ -16,10 +16,9 @@ import {
   BsTrophy,
   BsExclamationSquare,
 } from 'react-icons/bs';
-import { GrHistory } from 'react-icons/gr';
-import { RiThumbUpLine } from 'react-icons/ri';
+import { RiThumbUpLine, RiHistoryLine } from 'react-icons/ri';
 import { SiYoutubegaming } from 'react-icons/si';
-import { ImFeed } from 'react-icons/im';
+import { HiOutlineStatusOnline } from 'react-icons/hi';
 
 // TODO: add id
 
@@ -32,14 +31,14 @@ export const sidebarCategories = [
   ],
   [
     { name: 'Library', id: 5, icon: <MdOutlineVideoLibrary /> },
-    { name: 'History', id: 6, icon: <GrHistory /> },
+    { name: 'History', id: 6, icon: <RiHistoryLine /> },
     { name: 'Your videos', id: 7, icon: <AiOutlinePlaySquare /> },
     { name: 'Watch later', id: 8, icon: <AiOutlineClockCircle /> },
     { name: 'Liked videos', id: 9, icon: <RiThumbUpLine /> },
   ],
   [
     { name: 'Gaming', id: 10, icon: <SiYoutubegaming /> },
-    { name: 'Live', id: 11, icon: <ImFeed /> },
+    { name: 'Live', id: 11, icon: <HiOutlineStatusOnline /> },
     { name: 'Sports', id: 12, icon: <BsTrophy /> },
   ],
   [
