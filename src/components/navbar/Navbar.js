@@ -12,6 +12,7 @@ const Navbar = ({ hideSidebarHandler }) => {
           onClick={() => {
             hideSidebarHandler();
           }}>
+
           <MdMenu />
         </div>
         <div className='logo'>

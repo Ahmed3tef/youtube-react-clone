@@ -20,9 +20,11 @@ import { RiThumbUpLine, RiHistoryLine } from 'react-icons/ri';
 import { SiYoutubegaming } from 'react-icons/si';
 import { HiOutlineStatusOnline } from 'react-icons/hi';
 
+
 // TODO: add id
 
 export const sidebarCategories = [
+
   [
     { name: 'Home', id: 1, icon: <MdHomeFilled /> },
     { name: 'Explore', id: 2, icon: <MdOutlineExplore /> },

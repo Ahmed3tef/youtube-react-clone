@@ -1,4 +1,7 @@
+
 import React, { Fragment, useState } from 'react';
+
+
 import { Navbar, Sidebar } from './components';
 import { Home } from './pages';
 
@@ -22,5 +25,4 @@ const App = () => {
     </Fragment>
   );
 };
-
 export default App;

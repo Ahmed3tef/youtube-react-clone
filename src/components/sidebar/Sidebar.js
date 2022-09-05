@@ -1,3 +1,4 @@
+
 import { sidebarCategories } from '../../utils/constants';
 import './_sidebar.scss';
 
@@ -35,6 +36,8 @@ const Sidebar = ({ showSidebar }) => {
           ))}
         </>
       )}
+
+
     </div>
   );
 };
