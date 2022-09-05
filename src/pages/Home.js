@@ -1,19 +1,6 @@
-import React from "react";
+import React from 'react';
 // import { CategoriesBar, VideoCard } from '../components';
 
-const Home = () => (
-  <>
-    {/* <Container>
-      <CategoriesBar />
-      <Row>
-        {[...new Array(20)].map(() => (
-          <Col lg={3} md={4}>
-            <VideoCard />
-          </Col>
-        ))}
-      </Row>
-    </Container> */}
-  </>
-);
+const Home = () => <></>;
 
 export default Home;

@@ -4,14 +4,18 @@ import Icon from "../icon/Icon";
 import "./_navbar.scss";
 import LogoImg from "../../img/logo.png";
 
-const Navbar = () => {
-  console.log(LogoImg);
+const Navbar = ({ hideSidebarHandler }) => {
   return (
     <div className="navbar">
       <div className="logo__container">
-        <Icon className="navbar__menu icon">
+        <div
+          className="navbar__menuIcon"
+          onClick={() => {
+            hideSidebarHandler();
+          }}
+        >
           <MdMenu />
-        </Icon>
+        </div>
         <div className="logo">
           <img src={LogoImg} alt="logo" className="logo__img" />
           <span className="logo__text">YouTube</span>
