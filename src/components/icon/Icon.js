@@ -1,5 +1,7 @@
-import './_icon.scss';
+import "./_icon.scss";
 
-const Icon = props => <div className='icon'>{props.children}</div>;
+const Icon = (props) => (
+  <div className={`icon ${props.className}`}>{props.children}</div>
+);
 
 export default Icon;
