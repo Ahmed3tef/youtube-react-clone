@@ -5,45 +5,44 @@ import {
   MdVideoCall,
   MdOutlineNotifications,
   MdAccountCircle,
-} from "react-icons/md";
-import Icon from "../icon/Icon";
+} from 'react-icons/md';
+import Icon from '../icon/Icon';
 
-import "./_navbar.scss";
-import LogoImg from "../../img/logo.png";
+import './_navbar.scss';
+import LogoImg from '../../img/logo.png';
 
 const Navbar = ({ hideSidebarHandler }) => {
   return (
-    <div className="navbar">
-      <div className="navbar__container">
-        <div className="navbar__menuLogoContainer">
+    <div className='navbar'>
+      <div className='navbar__container'>
+        <div className='navbar__menuLogoContainer'>
           <div
-            className="navbar__menuIcon"
+            className='navbar__menuIcon'
             onClick={() => {
               hideSidebarHandler();
-            }}
-          >
+            }}>
             <MdMenu />
           </div>
-          <div className="logo">
-            <img src={LogoImg} alt="logo" className="logo__img" />
-            <span className="logo__text">YouTube</span>
+          <div className='logo'>
+            <img src={LogoImg} alt='logo' className='logo__img' />
+            <span className='logo__text'>YouTube</span>
           </div>
         </div>
 
-        <div className="searchBar">
+        <div className='searchBar'>
           <input
-            placeholder="Search"
-            className="searchBar__input"
-            type="text"
+            placeholder='Search'
+            className='searchBar__input'
+            type='text'
           />
-          <Icon className="searchBar__searchIcon">
+          <Icon className='searchBar__searchIcon'>
             <MdSearch />
           </Icon>
-          <Icon className="searchBar__micIcon">
+          <Icon className='searchBar__micIcon'>
             <MdMic />
           </Icon>
         </div>
-        <div className="contentContainer">
+        <div className='contentContainer'>
           <Icon>
             <MdVideoCall />
           </Icon>
