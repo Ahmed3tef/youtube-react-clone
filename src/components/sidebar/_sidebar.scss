@@ -1,18 +1,19 @@
 .sidebar {
   position: fixed;
-  bottom: 0;
   width: 24rem;
   background-color: var(--color-sidebar-bg);
-  height: calc(100vh - 5.6rem);
-
+  height: 100%;
   overflow-y: auto;
   color: var(--color-white);
 
+  &__nav {
+    padding-right: 1.5rem;
+  }
   &__section {
     display: flex;
     flex-direction: column;
     padding: 1.4rem 0;
-    width: 99%;
+    width: 100%;
     border-bottom: 1px solid var(--color-border-line);
   }
   &__link {
@@ -44,6 +45,9 @@
     .sidebar__icon {
       margin-right: 0;
       margin: auto;
+    }
+    .sidebar__nav {
+      padding-right: 0;
     }
     .sidebar__section {
       padding: 0;

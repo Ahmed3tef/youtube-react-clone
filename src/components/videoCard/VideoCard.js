@@ -1,7 +1,6 @@
-import React from 'react';
-
+import './_videoCard.scss';
 const VideoCard = () => {
-  return <div>VideoCard</div>;
+  return <div className='video'>VideoCard</div>;
 };
 
 export default VideoCard;

@@ -1,8 +1,7 @@
-
 import React, { Fragment, useState } from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
-
-import { Navbar, Sidebar } from './components';
+import { Navbar, Sidebar, VideoCard } from './components';
 import { Home } from './pages';
 
 import './_app.scss';
@@ -15,13 +14,22 @@ const App = () => {
 
   return (
     <Fragment>
-      <Navbar hideSidebarHandler={hideSidebarHandler} />
-      <div className='app__container'>
-        <Sidebar showSidebar={showSidebar} />
-        <div fluid className='app__main'>
-          <Home />
+      <BrowserRouter>
+        <Navbar hideSidebarHandler={hideSidebarHandler} />
+        <div className='app__container'>
+          <Sidebar showSidebar={showSidebar} />
+          <main className='app__main'>
+            <Routes>
+              <Route path='/'>
+                <Route index element={<Home />} />
+                {/* <Route path='video'>
+                  <Route path=':id' element={<VideoCard />} />
+                </Route> */}
+              </Route>
+            </Routes>
+          </main>
         </div>
-      </div>
+      </BrowserRouter>
     </Fragment>
   );
 };
