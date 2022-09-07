@@ -24,8 +24,8 @@ const Sidebar = ({ showSidebar }) => {
         )}
         {showSidebar && (
           <>
-            {sidebarCategories.map(categoryArr => (
-              <div className='sidebar__section'>
+            {sidebarCategories.map((categoryArr, index) => (
+              <div className='sidebar__section' key={index}>
                 {categoryArr.map(category => (
                   <div className='sidebar__link' key={category.id}>
                     <div className='sidebar__icon'>{category.icon}</div>

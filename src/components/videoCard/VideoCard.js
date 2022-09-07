@@ -1,6 +1,6 @@
 import './_videoCard.scss';
 const VideoCard = () => {
-  return <div className='video'>VideoCard</div>;
+  return <div className='card'>VideoCard</div>;
 };
 
 export default VideoCard;
