@@ -1,9 +1,9 @@
 .container {
-  padding: 0 2.4rem;
+  padding: 0 var(--padding-main-container);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(24.5rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(24.5rem, 36rem));
   justify-content: space-evenly;
-  gap: 1.6rem;
+  column-gap: 1.6rem;
 }
 
 // container padding: 0; at 602px

@@ -25,7 +25,10 @@ const App = () => {
           <Sidebar showSidebar={showSidebar} />
           <main
             className='app__main'
-            style={{ width: `calc(100vw - ${sidebarWidth}px)` }}>
+            style={{
+              minWidth: `calc(100vw - ${sidebarWidth}px - var(--padding-main-container))`,
+              left: `${sidebarWidth}px`,
+            }}>
             <Routes>
               <Route path='/'>
                 <Route index element={<Home />} />
@@ -41,3 +44,7 @@ const App = () => {
   );
 };
 export default App;
+
+function name() {} // here we put params
+
+// when

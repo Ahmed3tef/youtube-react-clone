@@ -1,14 +1,13 @@
 .app {
   &__container {
-    display: flex;
-    height: 92vh;
+    height: calc(100vh - 5.6rem);
     position: relative;
+    display: grid;
   }
   &__main {
+    // overflow-y: scroll;
     margin-top: 2.4rem;
-    height: calc(100vh - 5.6rem);
+    // height: 100%;
     position: absolute;
-    right: 0;
-    top: 0;
   }
 }
