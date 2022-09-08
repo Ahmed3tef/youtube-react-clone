@@ -1,5 +1,13 @@
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  padding: 0 var(--padding-main-container);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24.5rem, 36rem));
+  justify-content: space-evenly;
+  column-gap: 1.6rem;
 }
+
+// container padding: 0; at 602px
+
+// grid becomes 3 cols at 1144px
+// grid becomes 2 cols at 888px
+// grid becomes 1 cols at 510px
